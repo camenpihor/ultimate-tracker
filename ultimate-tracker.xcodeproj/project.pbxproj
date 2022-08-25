@@ -14,6 +14,8 @@
 		E015250E28A89F1B00E83435 /* ultimate_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015250D28A89F1B00E83435 /* ultimate_trackerTests.swift */; };
 		E015251828A89F1B00E83435 /* ultimate_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015251728A89F1B00E83435 /* ultimate_trackerUITests.swift */; };
 		E015251A28A89F1B00E83435 /* ultimate_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015251928A89F1B00E83435 /* ultimate_trackerUITestsLaunchTests.swift */; };
+		E0DBABB028B7DA9B00C25930 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DBABAF28B7DA9B00C25930 /* TrackerView.swift */; };
+		E0DBABB228B7DF4200C25930 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DBABB128B7DF4200C25930 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E015251328A89F1B00E83435 /* ultimate-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ultimate-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E015251728A89F1B00E83435 /* ultimate_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultimate_trackerUITests.swift; sourceTree = "<group>"; };
 		E015251928A89F1B00E83435 /* ultimate_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultimate_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0DBABAF28B7DA9B00C25930 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
+		E0DBABB128B7DF4200C25930 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		E01524FB28A89F1500E83435 /* ultimate-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				E048B49F28B537F400AF1A34 /* views */,
+				E048B49D28B5375500AF1A34 /* models */,
 				E01524FC28A89F1500E83435 /* ultimate_trackerApp.swift */,
-				E01524FE28A89F1500E83435 /* ContentView.swift */,
 				E015250028A89F1B00E83435 /* Assets.xcassets */,
 				E015250228A89F1B00E83435 /* Preview Content */,
 			);
@@ -125,6 +130,23 @@
 				E015251928A89F1B00E83435 /* ultimate_trackerUITestsLaunchTests.swift */,
 			);
 			path = "ultimate-trackerUITests";
+			sourceTree = "<group>";
+		};
+		E048B49D28B5375500AF1A34 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E0DBABB128B7DF4200C25930 /* Game.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E048B49F28B537F400AF1A34 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E01524FE28A89F1500E83435 /* ContentView.swift */,
+				E0DBABAF28B7DA9B00C25930 /* TrackerView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			files = (
 				E01524FF28A89F1500E83435 /* ContentView.swift in Sources */,
 				E01524FD28A89F1500E83435 /* ultimate_trackerApp.swift in Sources */,
+				E0DBABB028B7DA9B00C25930 /* TrackerView.swift in Sources */,
+				E0DBABB228B7DF4200C25930 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
